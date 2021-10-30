@@ -1,20 +1,32 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import "./Tour.css"
 
-const Tour = () => {
+const Tour = (props) => {
+    const {tour} = props;
+    const {id,name,description,img,discount,price} = tour ;
     return (
         <div>
             
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                    Some quick example text
-                    </Card.Text>
-                    <Button variant="warning">Book Now</Button>
-                </Card.Body>
-            </Card>
+            <div className="d-flex tour p-3">
+                <Card style={{ width: '25rem' }}>
+                    <Card.Img style={{width:"100%", height:"250px"}} variant="top" src={img} />
+                    <Card.Body>
+                        <Card.Title className="tour-title p-2">{name}</Card.Title>
+                        <Card.Text>
+                            {description}
+                        </Card.Text>
+                        <div className="price-container d-flex p-2">
+                            <h5 className="text-primary offer"> <span className="discount">{discount}</span> Off</h5>
+                            <h5 className="text-info">Price: <span className="price text-danger">{price}</span></h5>
+                        </div>
+                        <Link to ={`/booking/${id}`}>
+                            <Button variant="warning" className="px-5 my-3">Book Now</Button>
+                        </Link>
+                    </Card.Body>
+                </Card>
+            </div>
             
         </div>
     );

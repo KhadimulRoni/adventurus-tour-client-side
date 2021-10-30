@@ -3,12 +3,14 @@ import './App.css';
 import { BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './components/Home/Home/Home';
 import Header from './components/Shared/Header/Header';
-import Footer from './components/Shared/Footer/Footer';
 import Tours from './components/Home/Tours/Tours';
 import AboutUs from './components/Home/AboutUs/AboutUs';
 import Login from './components/Home/Login/Login';
 import AuthProvider from './contexts/AuthProvider';
 import NotFound from './components/NotFound/NotFound';
+import Footer from './components/Shared/Footer/Footer';
+import Booking from './components/Home/Booking/Booking';
+import PrivateRoute from './components/Home/Login/PrivateRoute/PrivateRoute';
 
 
 function App() {
@@ -30,6 +32,11 @@ function App() {
                 <Route path="/tours">
                   <Tours></Tours>
                 </Route>
+
+                <PrivateRoute path="/booking/:id">
+                  <Booking></Booking>
+                </PrivateRoute>
+
                 <Route path="/about">
                   <AboutUs></AboutUs>
                 </Route>

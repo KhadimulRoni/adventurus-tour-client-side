@@ -1,0 +1,24 @@
+.tour{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.tour-title{
+    font-weight:700;
+    color: rgb(211, 43, 43);
+}
+.price-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.offer{
+    font-size: 30px;
+}
+.discount{
+    font-size: 40px;
+    font-weight: 700;
+    color: orangered;
+}
+.price{
+    font-size: 25px;
+}
