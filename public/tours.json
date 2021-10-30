@@ -1,0 +1,38 @@
+[
+    {    
+        "id":1,
+        "name":"Paddling The Kayak",
+        "img":"https://i.ibb.co/jW9PdWd/Lady-paddling-the-kayak-in-the-calm-tropical-bay.jpg",
+        "description":"An emergency room or emergency department is a medical treatment facility that specializes in acute medical care of patients. These patients are treated in an emergency room without an appointment."
+     },
+     {   
+        "id":2,
+        "name":"Wanderlust Outdoor Camping",
+        "img":"https://i.ibb.co/FqpwnYB/wanderlust-outdoor-camping-traveler-feet-out-of-the-tent.jpg",
+        "description":"An orthopaedic surgeon is a medical professional who specialises in diagnosing, treating, preventing and rehabilitating musculoskeletal injuries and diseases, both surgically."
+     },
+     {   
+        "id":3,
+        "name":"Hiking On Sunrise Mountain",
+        "img":"https://i.ibb.co/P6z8T3Q/Success-woman-hiker-hiking-on-sunrise-mountain-peak-Young-woman-with-backpack-rise-to-the-mountain-t.jpg",
+        "description":"Generally, a clinical laboratory or medical laboratory is a place where tests are performed on clinical specimens (also known as a patient sample), such as blood or urine, and the results analyzed."
+     },
+     {   
+        "id":4,
+        "name":"Bike Ride In Banff National Park",
+        "img":"https://i.ibb.co/ctV8cWB/A-woman-and-man-enjoy-a-winter-fat-bike-ride-in-Banff-National-Park-Alberta-Canada.jpg",
+        "description":"Many patients who are referred to cardiologists are older people with a history of things like congestive heart failure, heart attacks or atrial fibrillation, otherwise known as irregular heart rhythms."
+     },
+     {   
+        "id":5,
+        "name":"Jumping In Sunset",
+        "img":"https://i.ibb.co/1QjX9nb/Group-of-five-happy-friends-is-running-and-jumping-in-sunset-light-on-background-of-mountains-Happin.jpg",
+        "description":"Neurologists diagnose, treat and manage disorders that affect the central nervous system (the brain and spinal cord) and the peripheral nervous system (nerves and muscles which activate movement."
+     },
+     {   
+        "id":6,
+        "name":"Powder Skiing",
+        "img":"https://i.ibb.co/F7S8TW0/Powder-skiing-in-the-backcountry.jpg",
+        "description":"A dental clinic is technically any place where dental services are rendered. However, most of the time when you hear this term used, you will find that a dental clinic has educational implications."
+     }
+]

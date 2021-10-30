@@ -1,0 +1,22 @@
+.banner{
+    font-family: 'Lobster', cursive;
+}
+.banner img{
+    width: 100%;
+}
+.title{
+    color:rgb(255, 187, 0);
+
+}
+.title-1{
+    font-size: 60px;
+    opacity: 90%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .title-1 {
+        font-size: 25px;
+    }
+}
