@@ -47,7 +47,9 @@ const Footer = () => {
                          </div>
                     </div>    
                 </div>
-
+                   <div>
+                       <p className="text-warning m-0 p-3">Wanderers-Adventure © 2021. All rights reserved. Terms of use and Privacy Policy</p>         
+                   </div>
             </div>
     );
 };
