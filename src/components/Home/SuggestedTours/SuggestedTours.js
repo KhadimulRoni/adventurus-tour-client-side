@@ -28,7 +28,7 @@ const SuggestedTours = () => {
                                 {suggestedTour?.description}
                             </Card.Text>
                             <div className="p-2">
-                                <h5 className="text-info">Price: <span className="price text-danger">{suggestedTour?.price}</span></h5>
+                                <h5 className="text-info">Price: <span className="price text-danger">{suggestedTour?.price}$</span></h5>
                             </div>
                         
                         </Card.Body>
