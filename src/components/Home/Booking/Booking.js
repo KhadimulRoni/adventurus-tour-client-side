@@ -15,7 +15,7 @@ const Booking = () => {
       }
 
     useEffect( () => {
-        fetch(`http://localhost:5000/specialTours/${id}`)
+        fetch(`https://grim-witch-66597.herokuapp.com/specialTours/${id}`)
         .then( res => res.json())
         .then( data => setSpecialTour(data));
     },[])

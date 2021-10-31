@@ -1,9 +1,16 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 import "./Tour.css"
 
 const Tour = (props) => {
+    const {isLoading} = useAuth();
+
+    if(isLoading){
+        return <Spinner className="m-5" animation="border" variant="warning" />
+    }
+
     const {tour} = props;
     const {_id,name,description,img,discount,price} = tour ;
     return (

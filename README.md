@@ -6,7 +6,7 @@ This app is build with React JS...
 I have use google font for font style..
 
 # Deployment
-I have deployed the app in Firebase and heroku..
+I have deployed the app in Firebase and Heroku..
 
 # Framework
 I have used react bootstrap and normal bootstrap for my app...

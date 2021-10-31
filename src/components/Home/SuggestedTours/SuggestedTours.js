@@ -1,15 +1,25 @@
 import React, { useEffect, useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Spinner } from 'react-bootstrap';
+import useAuth from '../../../Hooks/useAuth';
 
 const SuggestedTours = () => {
     const [suggestedTours, setSuggestedTours] = useState([]);
     // const {name,description,price,img} = suggestedTours
 
+
     useEffect( () => {
-        fetch('http://localhost:5000/tours')
+        fetch('https://grim-witch-66597.herokuapp.com/tours')
         .then( res => res.json())
         .then( data => setSuggestedTours(data))
     },[])
+
+    const {isLoading} = useAuth();
+
+    if(isLoading){
+        return <Spinner className="m-5" animation="border" variant="warning" />
+    };
+
+    
     return (
         <div>
             <h1 className="tours py-5">- SUGGESTED TOURS -</h1>
