@@ -4,8 +4,8 @@ import useAuth from '../../../Hooks/useAuth';
 const Login = () => {
     const {signInWithGoogle} = useAuth();
     return (
-        <div>
-            <h2>Please Login</h2>
+        <div style={{height:"100vh"}}>
+            <h2 className="tours p-4">- Please Login -</h2>
             <button onClick={signInWithGoogle} className="btn btn-warning">Google Sign In</button>
         </div>
     );
