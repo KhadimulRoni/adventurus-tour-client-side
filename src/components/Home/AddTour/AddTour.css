@@ -1,0 +1,11 @@
+.add-tour form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-tour form input, textarea {
+    width: 40%;
+    margin: 10px 0;
+}

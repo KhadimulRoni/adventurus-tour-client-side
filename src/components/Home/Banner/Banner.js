@@ -17,7 +17,7 @@ const Banner = () => {
                     alt="First slide"
                     />
                     <Carousel.Caption className="title">
-                    <h1 className="title-1">Change the world by being yourself</h1>
+                        Change the world by being yourself
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,7 +28,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="title">
-                    <h1 className="title-1">Every moment is a fresh beginning</h1>
+                        Every moment is a fresh beginning
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -39,7 +39,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className="title">
-                    <h1 className="title-1">Die with memories, not dreams</h1>
+                        Die with memories, not dreams
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

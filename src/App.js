@@ -11,6 +11,7 @@ import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Shared/Footer/Footer';
 import Booking from './components/Home/Booking/Booking';
 import PrivateRoute from './components/Home/Login/PrivateRoute/PrivateRoute';
+import AddTour from './components/Home/AddTour/AddTour';
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
                 </Route>
                 <Route path="/tours">
                   <Tours></Tours>
+                </Route>
+
+                <Route path="/addTour">
+                  <AddTour></AddTour>
                 </Route>
 
                 <PrivateRoute path="/booking/:id">
