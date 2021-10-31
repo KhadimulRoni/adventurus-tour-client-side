@@ -5,7 +5,7 @@ import "./Tour.css"
 
 const Tour = (props) => {
     const {tour} = props;
-    const {id,name,description,img,discount,price} = tour ;
+    const {_id,name,description,img,discount,price} = tour ;
     return (
         <div>
             
@@ -21,7 +21,7 @@ const Tour = (props) => {
                             <h5 className="text-primary offer"> <span className="discount">{discount}</span> Off</h5>
                             <h5 className="text-info">Price: <span className="price text-danger">{price}</span></h5>
                         </div>
-                        <Link to ={`/booking/${id}`}>
+                        <Link to ={`/booking/${_id}`}>
                             <Button variant="warning" className="px-5 my-3">Book Now</Button>
                         </Link>
                     </Card.Body>

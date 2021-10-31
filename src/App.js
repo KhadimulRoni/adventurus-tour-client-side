@@ -12,6 +12,7 @@ import Footer from './components/Shared/Footer/Footer';
 import Booking from './components/Home/Booking/Booking';
 import PrivateRoute from './components/Home/Login/PrivateRoute/PrivateRoute';
 import AddTour from './components/Home/AddTour/AddTour';
+import SuggestedTours from './components/Home/SuggestedTours/SuggestedTours';
 
 
 function App() {
@@ -37,7 +38,9 @@ function App() {
                 <Route path="/addTour">
                   <AddTour></AddTour>
                 </Route>
-
+                <Route path ="/suggestedTours">
+                  <SuggestedTours></SuggestedTours>
+                </Route>
                 <PrivateRoute path="/booking/:id">
                   <Booking></Booking>
                 </PrivateRoute>

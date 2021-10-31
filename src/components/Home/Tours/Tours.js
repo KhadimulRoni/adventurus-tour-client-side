@@ -6,7 +6,7 @@ const Tours = () => {
     const [tours, setTours] = useState([]);
 
     useEffect( ()=>{
-        fetch('tours.json')
+        fetch('http://localhost:5000/specialTours')
         .then(res => res.json())
         .then( data => setTours(data))
     },[])
@@ -17,7 +17,7 @@ const Tours = () => {
             {
                 tours?.map( tour => <div className="col-lg-4 col-sm-12">
                         <Tour
-                    key={tour.id}
+                    key={tour._id}
                     tour = {tour}
                     ></Tour>
                 </div>)

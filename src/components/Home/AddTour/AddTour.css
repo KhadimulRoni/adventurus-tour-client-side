@@ -9,3 +9,7 @@
     width: 40%;
     margin: 10px 0;
 }
+.submit{
+    border-radius: 25px;
+    font-weight: 600;
+}

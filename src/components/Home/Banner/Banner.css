@@ -1,12 +1,11 @@
-.banner{
-    font-family: 'Lobster', cursive;
-}
+
 .banner img{
     width: 100%;
 }
 .title{
     color:rgb(255, 187, 0);
     font-size: 60px;
+    font-weight: 700;
     opacity: 90%;
 
 }
@@ -17,5 +16,6 @@
 @media only screen and (max-width: 600px) {
     .title {
         font-size: 25px;
+        font-weight: 500;
     }
 }
