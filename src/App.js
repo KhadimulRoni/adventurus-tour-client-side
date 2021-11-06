@@ -13,6 +13,8 @@ import Booking from './components/Home/Booking/Booking';
 import PrivateRoute from './components/Home/Login/PrivateRoute/PrivateRoute';
 import AddTour from './components/Home/AddTour/AddTour';
 import SuggestedTours from './components/Home/SuggestedTours/SuggestedTours';
+import Orders from './components/Home/Orders/Orders';
+import ManageAllOrders from './components/Home/ManageAllOrders/ManageAllOrders';
 
 
 function App() {
@@ -44,7 +46,12 @@ function App() {
                 <PrivateRoute path="/booking/:id">
                   <Booking></Booking>
                 </PrivateRoute>
-
+                <Route path="/orders">
+                  <Orders></Orders>
+                </Route>
+                <Route path="/manageAllOrders">
+                  <ManageAllOrders></ManageAllOrders>
+                </Route>
                 <Route path="/about">
                   <AboutUs></AboutUs>
                 </Route>

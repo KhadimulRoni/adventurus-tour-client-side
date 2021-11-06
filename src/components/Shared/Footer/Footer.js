@@ -41,7 +41,7 @@ const Footer = () => {
                             <h6>0 (800) 716 95 25</h6>
                             <h5>Send Mail</h5>
                             <h6>wanderersTours@email.com</h6>
-                            <h5>Visit MedLife</h5>
+                            <h5>Visit Wanderers</h5>
                             <h6 className="text-warning">8500, E Street, Alabama, NY, 75030</h6>
 
                          </div>
